@@ -1,0 +1,311 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:Custom="http://schemas.microsoft.com/winfx/2006/xaml/presentation/ribbon" xmlns:System="clr-namespace:System;assembly=mscorlib" x:Name="RibbonControl" x:Class="UserControl1" 
+             mc:Ignorable="d" SnapsToDevicePixels="True" Foreground="MidnightBlue" MinHeight="137" Width="500" MinWidth="500" MaxHeight="150" ScrollViewer.VerticalScrollBarVisibility="Disabled" >
+    <UserControl.Resources>
+
+    </UserControl.Resources>
+    <UserControl.BindingGroup>
+        <BindingGroup/>
+    </UserControl.BindingGroup>
+    <Custom:Ribbon x:Name="MyRibbon" RenderTransformOrigin="0,0" IsDropDownOpen="True" IsSynchronizedWithCurrentItem="True" MinHeight="130" Foreground="MidnightBlue" Background="WhiteSmoke" VerticalContentAlignment="Stretch" Margin="0" HorizontalContentAlignment="Stretch" ScrollViewer.VerticalScrollBarVisibility="Disabled" CheckedBackground="LightGray" CheckedBorderBrush="SteelBlue" FocusedBackground="Transparent" FocusedBorderBrush="LightSteelBlue" MouseOverBackground="GhostWhite" MouseOverBorderBrush="SteelBlue" PressedBackground="LightGray" PressedBorderBrush="SteelBlue" BorderBrush="Lavender" MinWidth="500" Width="500" MaxHeight="150">
+        <Custom:Ribbon.ContextualTabGroups>
+            <Custom:RibbonContextualTabGroup/>
+        </Custom:Ribbon.ContextualTabGroups>
+        <Custom:Ribbon.QuickAccessToolBar>
+            <Custom:RibbonQuickAccessToolBar Height="Auto" BorderBrush="Silver">
+                <Custom:RibbonQuickAccessToolBar.CustomizeMenuButton>
+                    <Custom:RibbonFilterMenuButton>
+                        <Custom:RibbonFilterMenuButton.ControlSizeDefinition>
+                            <Custom:RibbonControlSizeDefinition/>
+                        </Custom:RibbonFilterMenuButton.ControlSizeDefinition>
+                        <Custom:RibbonGallery>
+                            <Button/>
+                            <Button/>
+                        </Custom:RibbonGallery>
+                    </Custom:RibbonFilterMenuButton>
+                </Custom:RibbonQuickAccessToolBar.CustomizeMenuButton>
+                <Button Height="23" Width="23" Background="GhostWhite" BorderBrush="Silver" Foreground="MidnightBlue"/>
+                <Button Height="23" Width="23" Background="GhostWhite" BorderBrush="Silver" Foreground="MidnightBlue"/>
+                <Button Height="23" Width="23" Background="GhostWhite" BorderBrush="Silver" Foreground="MidnightBlue"/>
+                <Button Height="23" Width="23" Background="GhostWhite" BorderBrush="Silver" Foreground="MidnightBlue"/>
+            </Custom:RibbonQuickAccessToolBar>
+        </Custom:Ribbon.QuickAccessToolBar>
+        <Custom:Ribbon.ApplicationMenu>
+            <Custom:RibbonApplicationMenu AuxiliaryPaneContent="Test" Label="Datei" Name="Me_Main" KeyTip="Datei" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Background="MidnightBlue" BorderBrush="MidnightBlue" >
+                <Custom:RibbonApplicationMenu.ControlSizeDefinition>
+                    <Custom:RibbonControlSizeDefinition/>
+                </Custom:RibbonApplicationMenu.ControlSizeDefinition>
+                <MenuItem x:Name="MeI_NewPart" Header="neues Bauteil" Click="MeI_NewPart_Clicked" Foreground="MidnightBlue">
+                    <Button/>
+                    <Button/>
+                </MenuItem>
+                <MenuItem x:Name="MeI_Save" Header="speichern" Icon="" Click="MeI_Save_Clicked"/>
+                <MenuItem Header="Speichern unter"/>
+                <MenuItem Header="Drucken"/>
+            </Custom:RibbonApplicationMenu>
+        </Custom:Ribbon.ApplicationMenu>
+        <Custom:RibbonTab x:Name="RiTa_Sketch" Header="Skizze" RenderTransformOrigin="0,0" VerticalContentAlignment="Stretch" ScrollViewer.VerticalScrollBarVisibility="Disabled" Background="LightSteelBlue" MinHeight="88" MinWidth="400" d:IsHidden="True">
+            <Custom:RibbonGroup x:Name="RiGrou_Sketch" Header="" Width="80" Margin="0" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Padding="0" Background="Lavender" BorderBrush="Transparent" MinHeight="88" MaxHeight="88">
+                <Custom:RibbonSplitButton x:Name="RiSpliBu_newSketch" Label="Skizze erstellen" HeaderQuickAccessToolBarId="Skizze" HeaderKeyTip="neue Skizze" LargeImageSource="D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture\sketch_new-2D.png" UseLayoutRounding="False" MinWidth="80" CheckedBackground="Khaki" CheckedBorderBrush="Goldenrod" FocusedBackground="WhiteSmoke" FocusedBorderBrush="Goldenrod" MouseOverBackground="WhiteSmoke" MouseOverBorderBrush="Goldenrod" PressedBackground="Khaki" PressedBorderBrush="Goldenrod" ScrollViewer.VerticalScrollBarVisibility="Disabled" CanAddToQuickAccessToolBarDirectly="False" Width="80" BorderThickness="1" MinHeight="108" RenderTransformOrigin="0,0" Padding="0" Margin="-5,0,-5,-20" VerticalContentAlignment="Bottom" Height="108" MaxWidth="80" MaxHeight="108" LabelPosition="DropDown">
+                    <Custom:RibbonSplitButton.ControlSizeDefinition>
+                        <Custom:RibbonControlSizeDefinition Width="80" MinWidth="80"/>
+                    </Custom:RibbonSplitButton.ControlSizeDefinition>
+                    <MenuItem x:Name="MeI_New2DSketch" Header="neue 2D-Skizze" Click="MeI_New2DSketch_Clicked" />
+                    <MenuItem x:Name="MeI_New3DSketch" Header="neue 3D-Skizze" Click="MeI_New3DSketch_Clicked"/>
+                </Custom:RibbonSplitButton>
+            </Custom:RibbonGroup>
+            <Custom:RibbonGroup x:Name="RiGrou_SmartDim" Header="" Width="80" Margin="0,0,0,-20" HorizontalContentAlignment="Stretch" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0" Background="Lavender" BorderBrush="Transparent" Height="108" MinHeight="108" MinWidth="80" VerticalAlignment="Top" VerticalContentAlignment="Stretch">
+                <Custom:RibbonSplitButton x:Name="RiSpliBu_SmartDim" Label="Intelligente Bemaßung" IsTabStop="True"  LargeImageSource="D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture\sketch_intelligent dimension_1_48x48_144.png" VerticalContentAlignment="Stretch" CheckedBackground="Khaki" CheckedBorderBrush="Goldenrod" FocusedBackground="WhiteSmoke" FocusedBorderBrush="Goldenrod" MouseOverBackground="WhiteSmoke" MouseOverBorderBrush="Goldenrod" PressedBackground="Khaki" PressedBorderBrush="Goldenrod" MinWidth="80" HorizontalContentAlignment="Stretch" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0" UseLayoutRounding="True" Margin="-5,0,-5,-20" Width="80" MinHeight="108" Height="108" LabelPosition="DropDown">
+                    <Custom:RibbonSplitButton.ControlSizeDefinition>
+                        <Custom:RibbonControlSizeDefinition/>
+                    </Custom:RibbonSplitButton.ControlSizeDefinition>
+                </Custom:RibbonSplitButton>
+            </Custom:RibbonGroup>
+            <Custom:RibbonGroup x:Name="RiGrou_SketchElements" Header="" SnapsToDevicePixels="True" Padding="0" Margin="0,0,0,-50" Width="203" Background="Lavender" BorderBrush="Transparent" MinHeight="95" MinWidth="203" ScrollViewer.VerticalScrollBarVisibility="Disabled" CanAddToQuickAccessToolBarDirectly="False" VerticalContentAlignment="Stretch" FontSize="17" VerticalAlignment="Top">
+                <Custom:RibbonSplitButton x:Name="RiSpliBu_SketchLine"  Width="35" HorizontalContentAlignment="Stretch" Padding="0" MinWidth="35" ToolTip="Linie" VerticalContentAlignment="Stretch" UseLayoutRounding="True" RenderTransformOrigin="0.5,0.5" Margin="1,1,0,0" Height="25" MinHeight="25" MaxWidth="35" MaxHeight="25" ScrollViewer.VerticalScrollBarVisibility="Disabled" MouseOverBackground="GhostWhite" MouseOverBorderBrush="GhostWhite" PressedBorderBrush="PowderBlue" PressedBackground="PowderBlue" CheckedBackground="GhostWhite" CheckedBorderBrush="GhostWhite" FocusedBackground="WhiteSmoke" FocusedBorderBrush="PowderBlue" Click="RiSpliBu_SketchLine_Clicked" DropDownHeight="25" SnapsToDevicePixels="True" IsTabStop="True" IsTextSearchEnabled="True" LabelPosition="DropDown" Background="Lavender" BorderBrush="GhostWhite" >
+                    <Custom:RibbonSplitButton.SmallImageSource>
+                        <BitmapImage UriSource="file:///D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture/sketch_line_1_20x20x256x0.png"/>
+                    </Custom:RibbonSplitButton.SmallImageSource>
+                    <Custom:RibbonSplitButton.ControlSizeDefinition>
+                        <Custom:RibbonControlSizeDefinition ImageSize="Small" Width="35" MinWidth="35" MaxWidth="35" IsLabelVisible="True"/>
+                    </Custom:RibbonSplitButton.ControlSizeDefinition>
+                    <MenuItem x:Name="MeI_SketchLine" Header="Linie"/>
+                    <MenuItem x:Name="MeI_SketchConstructionLine" Header="Konstruktionslinie"/>
+                    <MenuItem Header="Mittelpunktlinie"/>
+                </Custom:RibbonSplitButton>
+                <Custom:RibbonSplitButton x:Name="RiSpliBu_SketchRightAngle" Label="" Width="35" Margin="1,2,0,0" Grid.Row="1" MinWidth="35" HorizontalAlignment="Left" VerticalContentAlignment="Center" Padding="0" UseLayoutRounding="True" RenderTransformOrigin="0,0" Height="25" IsHitTestVisible="True" SnapsToDevicePixels="True" VerticalAlignment="Top" MinHeight="25" MaxWidth="35" MaxHeight="25" HorizontalContentAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" CanAddToQuickAccessToolBarDirectly="False" MouseOverBackground="GhostWhite" MouseOverBorderBrush="GhostWhite" PressedBackground="PowderBlue" PressedBorderBrush="PowderBlue" FocusedBorderBrush="PowderBlue" CheckedBackground="GhostWhite" CheckedBorderBrush="GhostWhite" FocusedBackground="GhostWhite" Background="Lavender" BorderBrush="GhostWhite">
+                    <Custom:RibbonSplitButton.SmallImageSource>
+                        <BitmapImage UriSource="file:///D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture/sketch_rightangle_2-point_1_20x20x256x0.png"/>
+                    </Custom:RibbonSplitButton.SmallImageSource>
+                    <Custom:RibbonSplitButton.ControlSizeDefinition>
+                        <Custom:RibbonControlSizeDefinition MaxWidth="35" MinWidth="35" Width="35" ImageSize="Small" IsLabelVisible="False"/>
+                    </Custom:RibbonSplitButton.ControlSizeDefinition>
+                    <Custom:RibbonSplitButton.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Custom:RibbonSplitButton.RenderTransform>
+                    <Custom:RibbonSplitMenuItem x:Name="RiSpliMeI_SketchRightAngleEdge" CheckedBackground="GhostWhite" CheckedBorderBrush="SteelBlue" Header="Ecken-Rechteck" MouseOverBackground="GhostWhite" MouseOverBorderBrush="LightSteelBlue" PressedBorderBrush="SteelBlue" PressedBackground="GhostWhite" ImageSource="D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture/sketch_rightangle_edge_48x48_144 (2).png"/>
+                    <Custom:RibbonSplitMenuItem x:Name="RiSpliMeI_SketchRightAngleMiddlePoint" CheckedBackground="GhostWhite" CheckedBorderBrush="SteelBlue" Header="Mittelpunkt-Rechteck" MouseOverBackground="GhostWhite" MouseOverBorderBrush="LightSteelBlue" PressedBorderBrush="SteelBlue" PressedBackground="GhostWhite" ImageSource="D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture/sketch_rightangle_middlepoint_48x48_144 (4).png"/>
+                    <Custom:RibbonSplitMenuItem x:Name="riSpliMeI_SketchRightAngle3Points" CheckedBackground="GhostWhite" CheckedBorderBrush="SteelBlue" Header="Rechteck, 3 Eckpunkte" MouseOverBackground="GhostWhite" MouseOverBorderBrush="LightSteelBlue" PressedBorderBrush="SteelBlue" PressedBackground="GhostWhite" ImageSource="D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture/sketch_rightangle_3-point_48x48_144 (1).png"/>
+                    <Custom:RibbonSplitMenuItem x:Name="RiSpliMeI_SketchRightAngleMiddlePoint3Points" CheckedBackground="GhostWhite" CheckedBorderBrush="LightSteelBlue" Header="Mittelpunkt-Rechteck, 3 Punkte" MouseOverBackground="GhostWhite" MouseOverBorderBrush="LightSteelBlue" PressedBorderBrush="SteelBlue" PressedBackground="GhostWhite" ImageSource="D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture/sketch_rightangle_middlepoint_3-points_48x48_144 (3).png"/>
+                    <Custom:RibbonSplitMenuItem x:Name="RiSpliMeI_SketchRightAngleParallelogram" Header="Parallelogramm" MouseOverBackground="GhostWhite" MouseOverBorderBrush="LightSteelBlue" PressedBorderBrush="SteelBlue" PressedBackground="GhostWhite" ImageSource="D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture/sketch_rightangle_parallelogram_48x48_144.png"/>
+                </Custom:RibbonSplitButton>
+                <Custom:RibbonSplitButton x:Name="RiSpliBu_SketchSlot" Label="" Width="35" Height="25" Margin="1,2,157,-54" SmallImageSource="D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture\sketch_slot_2-points_1_20x20_120.png" Grid.Row="2" HorizontalAlignment="Left" Padding="0" UseLayoutRounding="True" VerticalContentAlignment="Center" VerticalAlignment="Top" MinWidth="35" HorizontalContentAlignment="Center" MinHeight="25" MaxWidth="35" MaxHeight="25" ScrollViewer.VerticalScrollBarVisibility="Disabled" CanAddToQuickAccessToolBarDirectly="False" FontSize="6" MouseOverBorderBrush="GhostWhite" CheckedBackground="GhostWhite" CheckedBorderBrush="GhostWhite" FocusedBackground="GhostWhite" FocusedBorderBrush="PowderBlue" MouseOverBackground="GhostWhite" PressedBackground="PowderBlue" PressedBorderBrush="PowderBlue" Background="Lavender" BorderBrush="GhostWhite">
+                    <Custom:RibbonSplitButton.ControlSizeDefinition>
+                        <Custom:RibbonControlSizeDefinition MaxWidth="35" MinWidth="35" Width="35" ImageSize="Small"/>
+                    </Custom:RibbonSplitButton.ControlSizeDefinition>
+                    <Button/>
+                    <Button/>
+                </Custom:RibbonSplitButton>
+                <Custom:RibbonSplitButton x:Name="RiSpliBu_SketchCircle" Width="35" RenderTransformOrigin="0.5,0.5" Margin="38,-52,0,0" VerticalContentAlignment="Center" HorizontalAlignment="Left" UseLayoutRounding="True" Padding="0" VerticalAlignment="Top" Height="25" Label="" ScrollViewer.VerticalScrollBarVisibility="Disabled" MinWidth="35" MinHeight="25" MaxWidth="35" MaxHeight="25" HorizontalContentAlignment="Center" MouseOverBorderBrush="GhostWhite" PressedBorderBrush="PowderBlue" PressedBackground="PowderBlue" MouseOverBackground="GhostWhite" FocusedBorderBrush="PowderBlue" FocusedBackground="GhostWhite" CheckedBorderBrush="GhostWhite" CheckedBackground="GhostWhite" SnapsToDevicePixels="True" Background="Lavender" BorderBrush="GhostWhite">
+                    <Custom:RibbonSplitButton.SmallImageSource>
+                        <BitmapImage UriSource="file:///D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture/sketch_circle_centerpoint_1_20x20x256x0.png"/>
+                    </Custom:RibbonSplitButton.SmallImageSource>
+                    <Custom:RibbonSplitButton.ControlSizeDefinition>
+                        <Custom:RibbonControlSizeDefinition ImageSize="Small"/>
+                    </Custom:RibbonSplitButton.ControlSizeDefinition>
+                    <Custom:RibbonSplitMenuItem x:Name="RiSpliMeI_SketchCircleCenterPoint" Header="Mittelpunkt-Kreis" ImageSource="D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture/sketch_circle_centerpoint.png" Click="RiSpliMeI_SketchCircleCenterPoint_Clicked" CheckedBackground="GhostWhite" CheckedBorderBrush="SteelBlue" MouseOverBackground="GhostWhite" MouseOverBorderBrush="LightSteelBlue" PressedBackground="GhostWhite" PressedBorderBrush="SteelBlue"/>
+                    <Custom:RibbonSplitMenuItem x:Name="RiSpliMeI_SketchCircle3Points" Header="3-Punkt-Kreis" ImageSource="D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture/sketch_circle_3-point_32x32_96.png" Click="RiSpliMeI_SketchLineRiSpliBu_SketchCircle3Points_Clicked_Clicked" MouseOverBackground="GhostWhite" MouseOverBorderBrush="LightSteelBlue" PressedBackground="GhostWhite" PressedBorderBrush="SteelBlue" CheckedBackground="GhostWhite" CheckedBorderBrush="SteelBlue"/>
+                </Custom:RibbonSplitButton>
+                <Custom:RibbonSplitButton x:Name="RiSpliBu_SketchArc"  SmallImageSource="D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture\sketch_arc_3-points_1_20x20_120.png" Width="35" Height="25" Foreground="MidnightBlue" Grid.IsSharedSizeScope="True" Margin="38,-25,110,0" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" MinWidth="35" Padding="0" VerticalContentAlignment="Center" VerticalAlignment="Top" ScrollViewer.VerticalScrollBarVisibility="Disabled" MaxWidth="35" MaxHeight="25" MinHeight="25" CanAddToQuickAccessToolBarDirectly="False" MouseOverBorderBrush="GhostWhite" PressedBorderBrush="PowderBlue" PressedBackground="PowderBlue" MouseOverBackground="GhostWhite" FocusedBorderBrush="PowderBlue" FocusedBackground="GhostWhite" CheckedBorderBrush="GhostWhite" CheckedBackground="GhostWhite" Background="Lavender" BorderBrush="GhostWhite">
+                    <Custom:RibbonSplitButton.ControlSizeDefinition>
+                        <Custom:RibbonControlSizeDefinition ImageSize="Small" MaxWidth="35" MinWidth="35" Width="35"/>
+                    </Custom:RibbonSplitButton.ControlSizeDefinition>
+                    <Button/>
+                    <Button/>
+                </Custom:RibbonSplitButton>
+                <Custom:RibbonSplitButton x:Name="RiSpliBu_SketchMultiEdge" Label="" Width="35" Height="25" Margin="38,2,112,-40" Padding="0" MinWidth="35" HorizontalAlignment="Left" Grid.Row="2" Grid.Column="1" VerticalAlignment="Top" VerticalContentAlignment="Center" UseLayoutRounding="True" ScrollViewer.VerticalScrollBarVisibility="Disabled" MaxHeight="25" MaxWidth="35" MinHeight="25" MouseOverBorderBrush="GhostWhite" CanAddToQuickAccessToolBarDirectly="False" CheckedBackground="GhostWhite" CheckedBorderBrush="GhostWhite" FocusedBackground="GhostWhite" FocusedBorderBrush="PowderBlue" MouseOverBackground="GhostWhite" PressedBackground="PowderBlue" PressedBorderBrush="PowderBlue" SnapsToDevicePixels="True" BorderBrush="GhostWhite" Background="Lavender">
+                    <Custom:RibbonSplitButton.SmallImageSource>
+                        <BitmapImage UriSource="D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture/sketch_multi edge_1_24x24x256x0.png"/>
+                    </Custom:RibbonSplitButton.SmallImageSource>
+                    <Custom:RibbonSplitButton.ControlSizeDefinition>
+                        <Custom:RibbonControlSizeDefinition ImageSize="Small" MaxWidth="35" IsLabelVisible="False" MinWidth="35" Width="35"/>
+                    </Custom:RibbonSplitButton.ControlSizeDefinition>
+                </Custom:RibbonSplitButton>
+                <Custom:RibbonSplitButton x:Name="RiSpliBu_SketchSpline" Label="" Width="35" Height="25" Margin="75,-52,65,0" SmallImageSource="D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture\sketch_spline_1_20x20_120.png" Grid.Column="2" HorizontalAlignment="Left" MinWidth="35" Padding="0" VerticalAlignment="Top" VerticalContentAlignment="Center" UseLayoutRounding="True" MinHeight="25" MaxWidth="35" MaxHeight="25" ScrollViewer.VerticalScrollBarVisibility="Disabled" CanAddToQuickAccessToolBarDirectly="False" HorizontalContentAlignment="Center" BorderThickness="1" MouseOverBorderBrush="GhostWhite" PressedBorderBrush="PowderBlue" PressedBackground="PowderBlue" MouseOverBackground="GhostWhite" FocusedBorderBrush="PowderBlue" FocusedBackground="GhostWhite" CheckedBorderBrush="GhostWhite" CheckedBackground="GhostWhite" BorderBrush="GhostWhite" Background="Lavender">
+                    <Custom:RibbonSplitButton.ControlSizeDefinition>
+                        <Custom:RibbonControlSizeDefinition ImageSize="Small" MaxWidth="35" MinWidth="35" Width="35"/>
+                    </Custom:RibbonSplitButton.ControlSizeDefinition>
+                    <Button/>
+                    <Button/>
+                </Custom:RibbonSplitButton>
+                <Custom:RibbonSplitButton x:Name="RiSpliBu_SketchEllipse" Label="" Width="35" Height="25" Margin="75,-25,62,-12" HorizontalAlignment="Left" Grid.Row="1" Grid.Column="2" VerticalAlignment="Top" MinWidth="35" VerticalContentAlignment="Center" Padding="0" UseLayoutRounding="True" ScrollViewer.VerticalScrollBarVisibility="Disabled" MaxWidth="35" MaxHeight="25" MinHeight="25" MouseOverBorderBrush="GhostWhite" CanAddToQuickAccessToolBarDirectly="False" CheckedBackground="GhostWhite" CheckedBorderBrush="GhostWhite" FocusedBackground="GhostWhite" FocusedBorderBrush="PowderBlue" MouseOverBackground="GhostWhite" PressedBackground="PowderBlue" PressedBorderBrush="PowderBlue" BorderBrush="GhostWhite" Background="Lavender">
+                    <Custom:RibbonSplitButton.SmallImageSource>
+                        <BitmapImage UriSource="file:///D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture/sketch_elipse_1_20x20_120.png"/>
+                    </Custom:RibbonSplitButton.SmallImageSource>
+                    <Custom:RibbonSplitButton.ControlSizeDefinition>
+                        <Custom:RibbonControlSizeDefinition ImageSize="Small" MaxWidth="35" MinWidth="35" Width="35"/>
+                    </Custom:RibbonSplitButton.ControlSizeDefinition>
+                    <Button/>
+                    <Button/>
+                </Custom:RibbonSplitButton>
+                <Custom:RibbonSplitButton x:Name="RiSpliBu_SketchEdgeWork" Label="" Width="35" Height="25" Margin="75,2,63,-44" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Left" MinWidth="35" Padding="0" UseLayoutRounding="True" VerticalContentAlignment="Center" VerticalAlignment="Top" MaxHeight="25" MaxWidth="35" MinHeight="25" ScrollViewer.VerticalScrollBarVisibility="Disabled" MouseOverBorderBrush="GhostWhite" PressedBorderBrush="PowderBlue" PressedBackground="PowderBlue" MouseOverBackground="GhostWhite" FocusedBorderBrush="PowderBlue" FocusedBackground="GhostWhite" CheckedBorderBrush="GhostWhite" CheckedBackground="GhostWhite" Background="Lavender" BorderBrush="GhostWhite">
+                    <Custom:RibbonSplitButton.SmallImageSource>
+                        <BitmapImage UriSource="file:///D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture/sketch_rounding_1_20x20_120.png"/>
+                    </Custom:RibbonSplitButton.SmallImageSource>
+                    <Custom:RibbonSplitButton.ControlSizeDefinition>
+                        <Custom:RibbonControlSizeDefinition ImageSize="Small" IsLabelVisible="False" MaxWidth="35" MinWidth="35" Width="35"/>
+                    </Custom:RibbonSplitButton.ControlSizeDefinition>
+                </Custom:RibbonSplitButton>
+                <Custom:RibbonButton x:Name="RiBu_SketchDatums" Label="" Width="25" Height="25" Margin="112,-52,10,-5" Grid.Column="3" HorizontalAlignment="Left" Padding="2" UseLayoutRounding="True" VerticalAlignment="Top" Grid.IsSharedSizeScope="False" RenderTransformOrigin="0,0" VerticalContentAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" MaxHeight="25" MaxWidth="25" MinHeight="25" MinWidth="25"  SmallImageSource="D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture\sketch_datum plane_1_20x20_120.png" MouseOverBorderBrush="GhostWhite" FocusedBackground="GhostWhite" FocusedBorderBrush="PowderBlue" MouseOverBackground="GhostWhite" PressedBackground="PowderBlue" PressedBorderBrush="PowderBlue" Background="Lavender" BorderBrush="GhostWhite" CornerRadius="0">
+                    <Custom:RibbonButton.ControlSizeDefinition>
+                        <Custom:RibbonControlSizeDefinition ImageSize="Small"/>
+                    </Custom:RibbonButton.ControlSizeDefinition>
+                </Custom:RibbonButton>
+                <Custom:RibbonButton x:Name="RiBu_SketchText" Label="" Margin="112,-25,0,0" Width="25" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" MouseOverBorderBrush="GhostWhite" MinWidth="25" MinHeight="25" MaxWidth="25" MaxHeight="25" VerticalContentAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" UseLayoutRounding="True" PressedBorderBrush="PowderBlue" PressedBackground="PowderBlue" MouseOverBackground="GhostWhite" FocusedBorderBrush="PowderBlue" FocusedBackground="GhostWhite" BorderBrush="GhostWhite" Background="Lavender" CornerRadius="0">
+                    <Custom:RibbonButton.ControlSizeDefinition>
+                        <Custom:RibbonControlSizeDefinition ImageSize="Small" MaxWidth="25" MinWidth="25" Width="25"/>
+                    </Custom:RibbonButton.ControlSizeDefinition>
+                    <Custom:RibbonButton.SmallImageSource>
+                        <BitmapImage UriSource="file:///D:/softwaredevelopement/3-Axis/software/PC programs/OdarTec 3-Axes/picture/sketch_text_1_20x20x256x0.png"/>
+                    </Custom:RibbonButton.SmallImageSource>
+                </Custom:RibbonButton>
+                <Custom:RibbonButton x:Name="RiBu_SketchPoint" Label="" MouseOverBorderBrush="GhostWhite" Width="25" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,0,0,0" MinWidth="25" MinHeight="25" MaxWidth="25" MaxHeight="25" VerticalContentAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" UseLayoutRounding="True" PressedBorderBrush="PowderBlue" SmallImageSource="D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture\sketch_point_1_20x20_120.png" CanAddToQuickAccessToolBarDirectly="False" FocusedBackground="GhostWhite" FocusedBorderBrush="PowderBlue" MouseOverBackground="GhostWhite" PressedBackground="PowderBlue" Click="RiBu_SketchPoint_Clicked" Background="Lavender" BorderBrush="GhostWhite" CornerRadius="0" >
+                    <Custom:RibbonButton.ControlSizeDefinition>
+                        <Custom:RibbonControlSizeDefinition ImageSize="Small" MaxWidth="25" MinWidth="25" Width="25"/>
+                    </Custom:RibbonButton.ControlSizeDefinition>
+                </Custom:RibbonButton>
+
+            </Custom:RibbonGroup>
+            <Custom:RibbonGroup Header="Extras" Height="90" Background="Lavender" BorderBrush="Transparent" SnapsToDevicePixels="True" Margin="0">
+                <Custom:RibbonButton x:Name="RiBu_DXFImport" Height="25" Label="" Width="25" Click="RiBu_DXFImport_Clicked" SmallImageSource="D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture\SketchImportDXF_48x48.png" LargeImageSource="D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture\SketchImportDXF_48x48.png" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalAlignment="Left" MinWidth="25" UseLayoutRounding="True" KeyTip="DXF-Import" ToolTipTitle="Import" MouseOverBorderBrush="GhostWhite" MouseOverBackground="GhostWhite" PressedBackground="PowderBlue" PressedBorderBrush="PowderBlue" FocusedBackground="GhostWhite" FocusedBorderBrush="PowderBlue" MaxWidth="25" MaxHeight="25" MinHeight="25" Background="Lavender" BorderBrush="GhostWhite" CornerRadius="0">
+                    <Custom:RibbonButton.ControlSizeDefinition>
+                        <Custom:RibbonControlSizeDefinition ImageSize="Small" MaxWidth="25" MinWidth="25" Width="25"/>
+                    </Custom:RibbonButton.ControlSizeDefinition>
+                </Custom:RibbonButton>
+                <Custom:RibbonButton x:Name="RiBu_PoinCloudImport" Height="25" Label="" Width="25" Click="RiBu_PointCloudImport_Clicked" SmallImageSource="D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture\SketchImportPointCloud_48x48.png" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalAlignment="Left" MinWidth="25" UseLayoutRounding="True" KeyTip="Punktwolken-Import" ToolTipTitle="Import" MouseOverBorderBrush="GhostWhite" MouseOverBackground="GhostWhite" PressedBackground="PowderBlue" PressedBorderBrush="PowderBlue" FocusedBackground="GhostWhite" FocusedBorderBrush="PowderBlue" MaxWidth="25" MaxHeight="25" MinHeight="25" Background="Lavender" BorderBrush="GhostWhite" CornerRadius="0">
+                    <Custom:RibbonButton.ControlSizeDefinition>
+                        <Custom:RibbonControlSizeDefinition ImageSize="Small" MaxWidth="25" MinWidth="25" Width="25"/>
+                    </Custom:RibbonButton.ControlSizeDefinition>
+                </Custom:RibbonButton>
+                <Custom:RibbonButton x:Name="RiBu_STLImport" Label="Button" LargeImageSource="D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture\SketchImportPointCloud_48x48.png" SmallImageSource="D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture\SketchImportPointCloud_48x48.png" Click="RiBu_STLImport_Clicked" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalAlignment="Left" MinWidth="25" UseLayoutRounding="True" KeyTip="STL-Import" ToolTipTitle="Import" MouseOverBorderBrush="GhostWhite" MouseOverBackground="GhostWhite" PressedBackground="PowderBlue" PressedBorderBrush="PowderBlue" FocusedBackground="GhostWhite" FocusedBorderBrush="PowderBlue" MaxWidth="25" MaxHeight="25" MinHeight="25" Width="25" Margin="-25,52,0,0" Background="Lavender" BorderBrush="GhostWhite" CornerRadius="0">
+                    <Custom:RibbonButton.ControlSizeDefinition>
+                        <Custom:RibbonControlSizeDefinition ImageSize="Small" MaxWidth="25" MinWidth="25" Width="25"/>
+                    </Custom:RibbonButton.ControlSizeDefinition>
+                </Custom:RibbonButton>
+            </Custom:RibbonGroup>
+        </Custom:RibbonTab>
+        <Custom:RibbonTab x:Name="RiTa_Feature" Header="Feature" Height="95" VerticalAlignment="Top" HorizontalAlignment="Left" MinHeight="95" d:IsHidden="True"/>
+        <Custom:RibbonTab x:Name="RiTa_Cam" Header="CAM" RenderTransformOrigin="0.5,0.809" SnapsToDevicePixels="True" Margin="0" HorizontalAlignment="Left" Background="Lavender" MinHeight="88" VerticalContentAlignment="Stretch" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+            <Custom:RibbonGroup x:Name="RiGrou_CAM" Background="Lavender" BorderBrush="Transparent" Margin="0,0,0,-50" ScrollViewer.VerticalScrollBarVisibility="Disabled" Padding="0" MinHeight="88" VerticalContentAlignment="Stretch" Grid.IsSharedSizeScope="True" CanAddToQuickAccessToolBarDirectly="False" FontSize="1" VerticalAlignment="Top">
+                <Grid Width="200" MinHeight="88" HorizontalAlignment="Left" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="43" MinHeight="43" MaxHeight="43"/>
+                        <RowDefinition Height="43" MaxHeight="43" MinHeight="43"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="43"/>
+                        <ColumnDefinition Width="43"/>
+                        <ColumnDefinition Width="43"/>
+                        <ColumnDefinition Width="43"/>
+                    </Grid.ColumnDefinitions>
+                    <Custom:RibbonButton x:Name="RiBu_CamPocket" Height="42" Label="" Width="42" FocusedBackground="Transparent" FocusedBorderBrush="PowderBlue" MouseOverBackground="GhostWhite" MouseOverBorderBrush="GhostWhite" PressedBackground="PowderBlue" PressedBorderBrush="Transparent" Margin="0" MinWidth="42" MinHeight="42" MaxWidth="42" MaxHeight="42" ScrollViewer.VerticalScrollBarVisibility="Disabled" VerticalContentAlignment="Center" UseLayoutRounding="True" Click="RiBu_CamPocket_Clicked" HorizontalContentAlignment="Center" ToolTip="Taschenfräsen" VerticalAlignment="Top" HorizontalAlignment="Center" CanAddToQuickAccessToolBarDirectly="False" CornerRadius="0" Background="Lavender" BorderBrush="GhostWhite">
+                        <Custom:RibbonButton.LargeImageSource>
+                            <BitmapImage UriSource="file:///D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture/cam_pocket_1_48x48x256x0.png"/>
+                        </Custom:RibbonButton.LargeImageSource>
+                        <Custom:RibbonButton.ControlSizeDefinition>
+                            <Custom:RibbonControlSizeDefinition MaxWidth="25" MinWidth="25" Width="25" IsLabelVisible="False"/>
+                        </Custom:RibbonButton.ControlSizeDefinition>
+                    </Custom:RibbonButton>
+                    <Custom:RibbonButton x:Name="RiBu_CamPath" Height="42" Label="" Width="42" FocusedBackground="Transparent" FocusedBorderBrush="PowderBlue" MouseOverBackground="GhostWhite" MouseOverBorderBrush="GhostWhite" PressedBackground="PowderBlue" PressedBorderBrush="Transparent" HorizontalAlignment="Center" Margin="0" MinWidth="42" MinHeight="42" MaxWidth="42" MaxHeight="42" VerticalContentAlignment="Center" UseLayoutRounding="True" CanAddToQuickAccessToolBarDirectly="False" Click="RiBu_CamPath_Clicked" ScrollViewer.VerticalScrollBarVisibility="Disabled" HorizontalContentAlignment="Center" ToolTip="Konturfräsen" Padding="0" VerticalAlignment="Top" Grid.Row="1" CornerRadius="0" Background="Lavender" BorderBrush="GhostWhite">
+                        <Custom:RibbonButton.LargeImageSource>
+                            <BitmapImage UriSource="file:///D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture/cam_contour_1_48x48x256x0.png"/>
+                        </Custom:RibbonButton.LargeImageSource>
+                        <Custom:RibbonButton.SmallImageSource>
+                            <BitmapImage UriSource="file:///D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture/cam_contour_1_48x48x256x0.png"/>
+                        </Custom:RibbonButton.SmallImageSource>
+                        <Custom:RibbonButton.ControlSizeDefinition>
+                            <Custom:RibbonControlSizeDefinition MaxWidth="25" IsLabelVisible="False" MinWidth="25" Width="25"/>
+                        </Custom:RibbonButton.ControlSizeDefinition>
+                    </Custom:RibbonButton>
+                    <Custom:RibbonButton x:Name="RiBu_CamBore" Height="42" Label="" Width="42" FocusedBackground="Transparent" FocusedBorderBrush="PowderBlue" MouseOverBackground="GhostWhite" MouseOverBorderBrush="GhostWhite" PressedBackground="PowderBlue" PressedBorderBrush="Transparent" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0" MaxHeight="42" MaxWidth="42" MinHeight="42" MinWidth="42" ScrollViewer.VerticalScrollBarVisibility="Disabled" VerticalContentAlignment="Center" UseLayoutRounding="True" CanAddToQuickAccessToolBarDirectly="False" Click="RiBu_CamBore_Clicked" HorizontalContentAlignment="Center" ToolTip="Bohren" Grid.Column="1" CornerRadius="0" Background="Lavender" BorderBrush="GhostWhite">
+                        <Custom:RibbonButton.LargeImageSource>
+                            <BitmapImage UriSource="file:///D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture/cam_bore_1_48x48x256x0.png"/>
+                        </Custom:RibbonButton.LargeImageSource>
+                        <Custom:RibbonButton.SmallImageSource>
+                            <BitmapImage UriSource="file:///D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture/cam_bore_1_48x48x256x0.png"/>
+                        </Custom:RibbonButton.SmallImageSource>
+                        <Custom:RibbonButton.ControlSizeDefinition>
+                            <Custom:RibbonControlSizeDefinition MaxWidth="25" MinWidth="25" Width="25" IsLabelVisible="False"/>
+                        </Custom:RibbonButton.ControlSizeDefinition>
+                    </Custom:RibbonButton>
+                    <Custom:RibbonButton x:Name="RiBu_CamPicture" Height="42" Label="" Width="42" FocusedBackground="Transparent" FocusedBorderBrush="PowderBlue" MouseOverBackground="GhostWhite" MouseOverBorderBrush="GhostWhite" PressedBackground="PowderBlue" PressedBorderBrush="Transparent" Margin="0" MinWidth="42" MinHeight="42" MaxWidth="42" MaxHeight="42" ScrollViewer.VerticalScrollBarVisibility="Disabled" VerticalContentAlignment="Center" UseLayoutRounding="True" Click="RiBu_CamPicture_Clicked" HorizontalContentAlignment="Center" ToolTip="Bild" VerticalAlignment="Top" HorizontalAlignment="Center" CanAddToQuickAccessToolBarDirectly="False" Grid.Row="1" Grid.Column="1" CornerRadius="0" Background="Lavender" BorderBrush="GhostWhite">
+                        <Custom:RibbonButton.LargeImageSource>
+                            <BitmapImage UriSource="file:///D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture/cam_picture_1_48x48x256x0.png"/>
+                        </Custom:RibbonButton.LargeImageSource>
+                        <Custom:RibbonButton.ControlSizeDefinition>
+                            <Custom:RibbonControlSizeDefinition MaxWidth="25" MinWidth="25" Width="25" IsLabelVisible="False"/>
+                        </Custom:RibbonButton.ControlSizeDefinition>
+                    </Custom:RibbonButton>
+                    <Custom:RibbonButton x:Name="RiBu_CamFaceMilling" Height="42" Label="" Width="42" FocusedBackground="Transparent" FocusedBorderBrush="PowderBlue" MouseOverBackground="GhostWhite" MouseOverBorderBrush="GhostWhite" PressedBackground="PowderBlue" PressedBorderBrush="Transparent" HorizontalAlignment="Center" Margin="0" MinWidth="42" MinHeight="42" MaxWidth="42" MaxHeight="42" VerticalContentAlignment="Center" UseLayoutRounding="True" CanAddToQuickAccessToolBarDirectly="False" Click="RiBu_CamFaceMilling_Clicked" ScrollViewer.VerticalScrollBarVisibility="Disabled" HorizontalContentAlignment="Center" ToolTip="Abzeilen" Padding="0" VerticalAlignment="Top" Grid.Column="2" CornerRadius="0" Background="Lavender" BorderBrush="GhostWhite">
+                        <Custom:RibbonButton.LargeImageSource>
+                            <BitmapImage UriSource="file:///D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture/cam_facemilling_1_48x48x256x0.png"/>
+                        </Custom:RibbonButton.LargeImageSource>
+                        <Custom:RibbonButton.SmallImageSource>
+                            <BitmapImage UriSource="file:///D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture/cam_facemilling_1_48x48x256x0.png"/>
+                        </Custom:RibbonButton.SmallImageSource>
+                        <Custom:RibbonButton.ControlSizeDefinition>
+                            <Custom:RibbonControlSizeDefinition MaxWidth="25" IsLabelVisible="False" MinWidth="25" Width="25"/>
+                        </Custom:RibbonButton.ControlSizeDefinition>
+                    </Custom:RibbonButton>
+                    <Custom:RibbonButton x:Name="RiBu_CamScan" Height="42" Label="" Width="42" FocusedBackground="Transparent" FocusedBorderBrush="PowderBlue" MouseOverBackground="GhostWhite" MouseOverBorderBrush="GhostWhite" PressedBackground="PowderBlue" PressedBorderBrush="Transparent" HorizontalAlignment="Center" Margin="0" MinWidth="42" MinHeight="42" MaxWidth="42" MaxHeight="42" VerticalContentAlignment="Center" UseLayoutRounding="True" Click="RiBu_CamScan_Clicked" ScrollViewer.VerticalScrollBarVisibility="Disabled" HorizontalContentAlignment="Center" ToolTip="Scan" Padding="0" VerticalAlignment="Top" Grid.Column="2" Grid.Row="1" CornerRadius="0" BorderBrush="GhostWhite" Background="Lavender" Grid.IsSharedSizeScope="True">
+                        <Custom:RibbonButton.LargeImageSource>
+                            <BitmapImage UriSource="file:///D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture/cam_Scan_1_48x48x256x0.png"/>
+                        </Custom:RibbonButton.LargeImageSource>
+                        <Custom:RibbonButton.SmallImageSource>
+                            <BitmapImage UriSource="file:///D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture/cam_Scan_1_48x48x256x0.png"/>
+                        </Custom:RibbonButton.SmallImageSource>
+                        <Custom:RibbonButton.ControlSizeDefinition>
+                            <Custom:RibbonControlSizeDefinition MaxWidth="25" IsLabelVisible="False" MinWidth="25" Width="25"/>
+                        </Custom:RibbonButton.ControlSizeDefinition>
+                    </Custom:RibbonButton>
+                    <Custom:RibbonButton x:Name="RiBu_Cam3D" Height="42" Label="" Width="42" FocusedBackground="GhostWhite" FocusedBorderBrush="PowderBlue" MouseOverBackground="GhostWhite" MouseOverBorderBrush="GhostWhite" PressedBackground="PowderBlue" PressedBorderBrush="PowderBlue" HorizontalAlignment="Center" Margin="0" MinWidth="42" MinHeight="42" MaxWidth="42" MaxHeight="42" VerticalContentAlignment="Center" UseLayoutRounding="True" CanAddToQuickAccessToolBarDirectly="False" Click="RiBu_Cam3D_Clicked" ScrollViewer.VerticalScrollBarVisibility="Disabled" HorizontalContentAlignment="Center" ToolTip="3D-Bearbeitung" Padding="0" VerticalAlignment="Top" Grid.Column="3" CornerRadius="0" BorderBrush="GhostWhite" Background="Lavender">
+                        <Custom:RibbonButton.LargeImageSource>
+                            <BitmapImage UriSource="file:///D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture/cam_3D_1_48x48x256x0.png"/>
+                        </Custom:RibbonButton.LargeImageSource>
+                        <Custom:RibbonButton.SmallImageSource>
+                            <BitmapImage UriSource="file:///D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture/cam_3D_1_48x48x256x0.png"/>
+                        </Custom:RibbonButton.SmallImageSource>
+                        <Custom:RibbonButton.ControlSizeDefinition>
+                            <Custom:RibbonControlSizeDefinition MaxWidth="25" IsLabelVisible="False" MinWidth="25" Width="25"/>
+                        </Custom:RibbonButton.ControlSizeDefinition>
+                    </Custom:RibbonButton>
+                    <Custom:RibbonButton x:Name="RiBu_CamScan2D" Margin="0" Grid.Row="1" Grid.Column="3" Width="42" Height="42" LargeImageSource="file:///D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture/cam_Scan_1_48x48x256x0.png" SmallImageSource="file:///D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture/cam_Scan_1_48x48x256x0.png" PressedBorderBrush="PowderBlue" PressedBackground="PowderBlue" MouseOverBorderBrush="GhostWhite" FocusedBorderBrush="PowderBlue" FocusedBackground="GhostWhite" BorderBrush="GhostWhite" Background="Lavender" MaxWidth="42" MaxHeight="42" ScrollViewer.VerticalScrollBarVisibility="Disabled" Grid.IsSharedSizeScope="True" ToolTip="2D-Scannen" CornerRadius="0" Click="RiBu_CamScan2D_Clicked" HorizontalAlignment="Center" VerticalAlignment="Top" VerticalContentAlignment="Center" UseLayoutRounding="True">
+                        <Custom:RibbonButton.ControlSizeDefinition>
+                            <Custom:RibbonControlSizeDefinition MaxWidth="25" MinWidth="25" Width="25"/>
+                        </Custom:RibbonButton.ControlSizeDefinition>
+                    </Custom:RibbonButton>
+                </Grid>
+            </Custom:RibbonGroup>
+        </Custom:RibbonTab>
+        <Custom:RibbonTab x:Name="RiTa_Evaluate" Header="Evaluieren" HorizontalAlignment="Left" Background="Lavender" d:IsHidden="True">
+            <Custom:RibbonGroup x:Name="RiGrou_Measurement" Header="Messen">
+                <Custom:RibbonButton x:Name="RiBu_Measurement_Measure" Label="Button" FocusedBackground="Transparent" FocusedBorderBrush="Silver" MouseOverBackground="GhostWhite" MouseOverBorderBrush="LightSteelBlue" PressedBackground="GhostWhite" PressedBorderBrush="SteelBlue" SmallImageSource="D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture/evaluation_measurement_32x32_96.png"/>
+            </Custom:RibbonGroup>
+        </Custom:RibbonTab>
+        <Custom:RibbonTab x:Name="RiTa_Filter" Header="Filter" Background="LightSteelBlue" d:IsHidden="True">
+            <Custom:RibbonGroup Header="Skizze" Background="Lavender" BorderBrush="Transparent" Margin="0">
+                <Custom:RibbonButton x:Name="RiBu_FilterSketchPoints" FocusedBackground="Transparent" FocusedBorderBrush="LightSteelBlue" MouseOverBackground="GhostWhite" MouseOverBorderBrush="SteelBlue" PressedBorderBrush="SteelBlue" PressedBackground="LightGray" SmallImageSource="D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture/filter_sketch_point_32x32_96.png"/>
+                <Custom:RibbonButton x:Name="RiBu_FilterSketch" FocusedBackground="Transparent" FocusedBorderBrush="LightSteelBlue" MouseOverBackground="GhostWhite" MouseOverBorderBrush="SteelBlue" PressedBorderBrush="SteelBlue" PressedBackground="LightGray" SmallImageSource="D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture/filter_sketch_32x32_96.png"/>
+                <Custom:RibbonButton x:Name="RiBu_FilterSketchSegments" FocusedBackground="Transparent" FocusedBorderBrush="Silver" MouseOverBackground="GhostWhite" MouseOverBorderBrush="LightSteelBlue" PressedBorderBrush="SteelBlue" PressedBackground="GhostWhite" SmallImageSource="D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture/filter_sketch_segments_32x32_96.png"/>
+                <Custom:RibbonButton x:Name="RiBu_FilterSketchMiddlePoints" FocusedBackground="Transparent" FocusedBorderBrush="Silver" MouseOverBackground="GhostWhite" MouseOverBorderBrush="LightSteelBlue" PressedBorderBrush="SteelBlue" PressedBackground="GhostWhite" SmallImageSource="D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\picture/filter_sketch_middlepoint_32x32_96.png"/>
+                <Custom:RibbonButton FocusedBackground="Transparent" FocusedBorderBrush="Silver" Label="Button" MouseOverBackground="GhostWhite" MouseOverBorderBrush="LightSteelBlue" PressedBorderBrush="SteelBlue" PressedBackground="GhostWhite"/>
+                <Custom:RibbonButton FocusedBackground="Transparent" FocusedBorderBrush="Silver" Label="Button" MouseOverBackground="GhostWhite" MouseOverBorderBrush="LightSteelBlue" PressedBorderBrush="SteelBlue" PressedBackground="GhostWhite"/>
+            </Custom:RibbonGroup>
+            <Custom:RibbonGroup Header="Group"/>
+        </Custom:RibbonTab>
+        <Custom:RibbonTab x:Name="RiTa_View" Header="Ansicht" d:IsHidden="True">
+            <Custom:RibbonGroup Header="Ansicht"/>
+            <Custom:RibbonGroup Header="Teildarstellung"/>
+        </Custom:RibbonTab>
+        <Custom:RibbonTab Header="Tab" d:IsHidden="True"/>
+    </Custom:Ribbon>
+</UserControl>

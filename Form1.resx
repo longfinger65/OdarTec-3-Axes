@@ -1,0 +1,563 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="FeatureManager.Appearance" type="System.Windows.Forms.TabAppearance, System.Windows.Forms">
+    <value>FlatButtons</value>
+  </data>
+  <metadata name="ContextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>123, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="SkizzeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="SkizzeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Skizze bearbeiten</value>
+  </data>
+  <data name="SkizzeBeendenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="SkizzeBeendenToolStripMenuItem.Text" xml:space="preserve">
+    <value>Skizze beenden</value>
+  </data>
+  <data name="ToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="ToolStripMenuItem1.Text" xml:space="preserve">
+    <value>anzeigen</value>
+  </data>
+  <data name="LöschenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="LöschenToolStripMenuItem.Text" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="ToolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 6</value>
+  </data>
+  <data name="NCProgrammErstellenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="NCProgrammErstellenToolStripMenuItem.Text" xml:space="preserve">
+    <value>NC-Programm erstellen</value>
+  </data>
+  <data name="ZeigeTaschenbahnToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="ZeigeTaschenbahnToolStripMenuItem.Text" xml:space="preserve">
+    <value>zeige Taschenbahn</value>
+  </data>
+  <data name="ContextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 142</value>
+  </data>
+  <data name="&gt;&gt;ContextMenuStrip1.Name" xml:space="preserve">
+    <value>ContextMenuStrip1</value>
+  </data>
+  <data name="&gt;&gt;ContextMenuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TreVi_Feature.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TreVi_Feature.ImageIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <metadata name="ImageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="ImageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAq
+        EwAAAk1TRnQBSQFMAgEBDAEAARgBAQEYAQEBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAAUADAAEBAQABCAYAARAYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD//8A/wD/AP8AJQAg5QEA
+        CvQGAAr0BQAB5QqgBuUKoAXlAQAKBwHzBQAL8gQAAeUKBwGZBeUK8gGZBOUBAAMHBPEDBwHPAfAEAAPy
+        BPQD8gGSAfEDAAHlAwcE8QMHAc8BHATlA/IE9APyAZIBmQPlAQACBwHzBP8B8wIHAs8BvAMAAvIB9AT/
+        AfQC8gKSAbwCAAHlAgcB8wT/AfMCBwLPAfcD5QLyAfQE/wH0AvICkgGZAuUBAAIHAf8B8wT/AgcDzwG1
+        AgAC8gH/AfME/wLyA5IBBwEAAeUCBwH/AfME/wIHA88B9wLlAvIB/wHzBP8C8gOSARwB5QEAAgcB/wH3
+        AfID/wIHBM8CAALyAf8B9wHyA/8C8gSSAQAB5QIHAf8B9wHyA/8CBwTPAuUC8gH/AfcB8gP/AvIEkgHl
+        AQACBwH/AfIBkgHyAZIB/wIHBM8CAALyAf8B8gGSAfIBkgH/AvIEkgEAAeUCBwH/AfIBkgHyAZIB/wIH
+        BM8C5QLyAf8B8gGSAfIBkgH/AvIEkgHlAQADBwT/AwcEzwIAA/IE/wPyBJIBAAHlAwcE/wMHBM8C5QPy
+        BP8D8gSSAeUBAAoHBM8CAAryBJIBAAHlCgcEzwLlCvIEkgHlAQAB8Am1AbQDzwIAAfMJ8AH3A5IBAAHl
+        AfAJtQG0A88C5QHzCfAB9wOSAeUBAAH0AfAKtQLPAgAB9AHxCQcB7wKSAQAB5QHDAfAKtQLPAuUBwwHx
+        CQcB7wKSAeUCAAH0AfIKtQHPAwAB9AHyCQcB7wGSAQAC5QGgAfIKtQHPA+UBoAHyCQcB7wGSAeUDAAH0
+        AfMKtQQAAfQB8wkHAe8BAAPlAaAB8wq1BOUBoAHzCQcB7wHlBAAL/wUAC/8BAATlC6AF5QugAeUgACDl
+        BP8B7QEOAQ8BEAj/BQAQ/wT0Af8G9Ar/AfQF/wMHAfAB/wHsAZIB9AX/AfAB8wEHAwAC9AFtBEMGEQP/
+        AvIBtAH3AbQBkQG1AZEBtAGRAbUBkQG0A/8B9AHzAbwBBwGYAQcBvAHvAbwBBwGYAQcBvAIAAQ8BkgG8
+        AZIBEQHsBf8BkgHsAW0CAAH0AeoBFQETBfIF8QL/AfABtAGRAbQKuwL/AfMBvAHvAbwB8QHwAfEB8AHx
+        AfAB8QHwAfEB8AIAAUMB8gEHA+wG/wEUAfEBAAH0ARQBFQL0CgAB/wEJAbUBtAIJC/8B8wEHAbwB8wHx
+        Cv8BAAGSAewB6wHyCP8BkgHsAW0B9AIUAfQMAAG8AZEBtAHwDP8B8AG8Ae8B8wz/AQcB/wHzAewB6wHy
+        Bf8B7wH3AfAB8wEHARMBFAH0DQACtAHyDf8BvAEHAfQQ/wH0AewBDwHsAfQD/wGSAQ4B7wL/ARMBbQLv
+        AuwKAAG0AQ4BEAGRARMBEgr/AbYB6wISAfcB7A7/AewJAAEHAf8BEwIAAQcBAAEHAQABEggAAbQCAAGg
+        AQABtgEAAUoI/wG8AUkBZwG8AXIBtgFyAe0M/wHwARQB7AH0A/8BkgEOAe8C/wITARIBAAH3AfEB9AHt
+        ARAB6gL/BAABkQG0ARABAAH3AfsBXgHsASIBEwHxAfME/wG2AZgB6wFyAe8B9AH/AewB9wFyAfQB8wn/
+        AW0BBwT/Ae8B9wP/AhMBAAGSAQ4BbQHvAfAB8wGSARQB6gL0AgACtAH/ARQBDgHrAe8CXQEcASIB6gEH
+        AbwC/wG8AQcB/wHtAesB7AHvAfIB9AHtAe8BcgHyAfEH/wFtAQcJ/wESARMCAAHzAbwB6wHqAe8BBwHy
+        Ae8BFAFDAfQBAAG1AZEC/wHtAW0B6wFtAbUBWAFeAXgBEwERAQcB/wG8AQcC/wEHAfcC7AG2AfEB8wL3
+        AXIB8Ab/AW0BBwL/AfMB9wX/ARIBEwQAAvQBbQEUAfcBBwHqARQBbQH0ArQE/wH3AuwBFAH3AVgB6gEB
+        AUUB7wG8AQcE/wEHAbwC7AH3Af8BkgL3AQcF/wFtAQcC/wHxARQF/wESARMGAAL0AW0BQwEAAewBbQES
+        ArQG/wEHAZIB6gEVAQABQQEmARICvAb/ArwB7AEHAXICvAHsA/8B7wEUAQ8BQwEUAf8BEgGSAewE/wIS
+        BwcBAAL0ARUB6gESAfQBkQG1AfcBuwHvAbsB9wEJAfcB/wHwAQcBEwFEAUUB8AEHAbwB7wLxAbwBCAHx
+        AbwB/wHxAfIBcgGSAewB8gP/AfQB6wIAAQcB/wEQAQcBbQT/BBIBEwESAxMDAAP/AQAJtAP/A/MB/wG8
+        AbYBCAG2AbwBtgEIAbYBvAP/AfMB9AHzBv8BbQEHCf8QACD/AQAE/wTzB/8KAAH/BfQHAAL/AfQB8QHy
+        AfQC/wEACvQHAAH/A/QBEwKSAUMB/wX0Af8DAAHzBvIBEwQhBwAC/wHzARwBSwFKARwB8gH0Af8BAAEV
+        ByIIAAH/AQcB6gJtAv8BQwHyBewB8gIAAfABEQUjAgADVQFPBgAB/wH0ARoBSgFRAlICSwEcAfQBAAGg
+        AeUBXgL7AzgIAAH0AZIBvAH0AW0C/wFDAfEF6gHxAQAB7wEjAQABOANZASkBJwEAAVUBngF9AVUFAAH/
+        AfQBmQFLAVgBWQFSAVgBegF5AUoB8AEAAlEBAwFeAfsBAwIqAQAB7wYAAfQB9wHwAf8E7Af0Ae8BKgEx
+        AQADWQEjAU8BVQEAAVoC5AFVAgAC/wH0AfIBHAEqAVgCWQFSAVgCegFRBPABAAFeAfsBAALwCAAB9AH3
+        AfAB/wQHB/8BDgFZATgBAAFZAXoBIgFPAeQBVQEABCECAAH/AfQBvAFRATAEWQFSAVgCegFRAfAEAAJe
+        CwAB9AHvAfAB9AHqArwBQwf0AQABoAFZAQAB5QGgAQAC5AEOAlUBNAEtAQAB9AEAAfQBHAFLAVgFWQFS
+        AVEBUgF5AVEB8AQAAQ8BIgUABEMCAAH0Ae8CFQFtAv8BQwHxBeoB8QEAAaABWQEAAeUBoAEAAeQBAALk
+        AVYBNAQAAfABKgVZAVIBSwFSAZoBeQFRAUoB8BEAAfQB7wHwAfQB6gK8AUMB8gXsAfIBAAGgAVkBAAHl
+        AcMCAANVATQBDgEyAwAB8AEqBFkDUgF5AZoBeQF0AXMB8REAAfQB7wHxAf8EBwH/BfQB/wEAAaABWQEA
+        AeUBoAUVAUMBegEyAwAB8AEqAlICWQFLAXoBeQFSAVEBHAHvAfIB9BEAAZECbAGRC/8BAAGgAVkBAAFZ
+        AeUFoAF6AVkBMgMAAfABKQF5AUsCWQFLA3oBSgHzA/8LAALwAgAB8AEAAWwC3AFlCfQC/wEAAeUBUgEi
+        AgMGSgIpARACAAH0AfABcwEjAlkBSwN6AUoB9A8AAQICJwIAAWwC3AFlAfEH6gH0Av8BAAFZASMBMQVR
+        ATABAwIqAQAB8QIAAf8C9AEiAVgBUgFRAVIBWAF5AUoB9A8AAzMCAAFlApABZQHzAe8GBwH0Av8BAAEi
+        AVEBWQGgAcMCoALlAVkBOAEiAfIFAAH0AewBSwFSAnkBdAFLAUoB9AH/DgAC+gEzAgAE8wH/BvQE/wEV
+        AQACDgEPAhADDwEOAUoB9AYAAf8B8wHwAQcBcwFKARwBvAHyAfQB/w4AAyEkAAP/BfQB/xQAAUIBTQE+
+        BwABPgMAASgDAAFAAwABQAMAAQEBAAEBBgABAhYAA/+BAAT/BAABgAEfAYABHwQAAYABDwGAAQ8EAAGA
+        AQcBgAEHBAABgAEDAYABAwQAAYABAQGAAQEEAAGAAQEBgAEBBAABgAEBAYABAQQAAYABAQGAAQEEAAGA
+        AQEBgAEBBAABgAEBAYABAQQAAYABAQGAAQEEAAHAAQEBwAEBBAAB4AEBAeABAQQAAfABAQHwAQEEAAT/
+        BgAB+AcAAeAHAAHABwABgwH/BgABDwH/BgABHwH/BgABAwH/BwAB/wcAAQ8GAAEgAQMGAAEwAQEGAAE8
+        BwABPwgAAUAHAAFxBgAC/wQAAYABAAH/AcAB/gEBAQABPwGAAQAB4AEAAfwCAAE/AYABAAHAAQAB+AIA
+        AT8BgAEAAYABAAHwAgABHwGAAwABgAIAAR8BgAMAAYABAAHhAZ8BgAMAAYABAAHhAYEBgAIAAQEBgAEA
+        Af8BgQGAAgABAQGAAQAB/wH5AYACAAEBAYABAAH/AfkBgAIAAQEBgAEAAf8B4AGAAgABAQGAAQcB/wHg
+        AYACAAEBAYABBwH/AeABgAIAAQMB4AEDAf8B4AGAAgABBwHgAQMB/wHgBP8B4AEPAv8L
+</value>
+  </data>
+  <data name="TreVi_Feature.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="TreVi_Feature.SelectedImageIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="TreVi_Feature.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 403</value>
+  </data>
+  <data name="TreVi_Feature.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TreVi_Feature.Name" xml:space="preserve">
+    <value>TreVi_Feature</value>
+  </data>
+  <data name="&gt;&gt;TreVi_Feature.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TreVi_Feature.Parent" xml:space="preserve">
+    <value>TabPage_Feature</value>
+  </data>
+  <data name="&gt;&gt;TreVi_Feature.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TabPage_Feature.ImageIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="TabPage_Feature.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="TabPage_Feature.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="TabPage_Feature.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 409</value>
+  </data>
+  <data name="TabPage_Feature.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="TabPage_Feature.ToolTipText" xml:space="preserve">
+    <value>Feature</value>
+  </data>
+  <data name="&gt;&gt;TabPage_Feature.Name" xml:space="preserve">
+    <value>TabPage_Feature</value>
+  </data>
+  <data name="&gt;&gt;TabPage_Feature.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPage_Feature.Parent" xml:space="preserve">
+    <value>FeatureManager</value>
+  </data>
+  <data name="&gt;&gt;TabPage_Feature.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TreeView2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TreeView2.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <metadata name="ImLi_CamTreVi.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>280, 17</value>
+  </metadata>
+  <data name="ImLi_CamTreVi.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACW
+        CQAAAk1TRnQBSQFMAgEBCAEAASABAQEgAQEBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAATADAAEBAQABCAYAAQwYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD//8A/wD/AP8A/wAIAAi8
+        CAAI7wgACLwIAAjvCAAI9AgACPMIAAH0AZIG9AEHBwAB8wFmBvMB7QgACe8HAAiuCAABkgYAAZIIAAFm
+        BgABZikAAZIGAAGSCAABZgYAAWYIAAnvBwAIrggAAe8B/wUAAe8B/wcAAa4B/wUAAa4B/wgACfQHAAjz
+        CAABkgYAAZIIAAFmBgABZggACbwHAAjvCAABvAbyAZIB8gcAAe8G8QFmAfEYAAi8CAAI8QgACLwYAAjx
+        /wD/AAYAArwOAALvDwAB7QEAAe0CAAHtAgAC7QYAAQcBAAEHAgABBwIAAgcFAAKSDgACZg8AAf8BAAH/
+        Aa4BAAFmAgAB/wFmBgAB/wEAAf8B7wEAAZICAAH/AZIFAAL/CAAC7wQAAv8IAAKuBwABZgIAAWYDAAFm
+        CAABkgIAAZIDAAGSDwACkg4AAmYHAAGuAgABZgMAAWYIAAHvAgABkgMAAZImAAHzAQAB8wIAAWYCAAHz
+        AWYGAAH0AQAB9AIAAZICAAH0AZIJAAL0DgAC8wsAAe8BAAHvAgAB7wIAAu8GAAG8AQABvAIAAbwCAAK8
+        CQACkg4AAmYuAALxDgACvP8ACQABQgFNAT4HAAE+AwABKAMAAUADAAEwAwABAQEAAQEFAAGAAQEWAAP/
+        gQAg/wHAAT8BwAE/AcABPwHAAT8BwAE/AcABPwHAAR8BwAEfAeABDwHgAR8B7wHfAe8B3wT/AfcB7wH3
+        Ae8B8AEHAfABDwHzAecB8wHnAfgBAwH4AQcB+wH3AfsB9wH4AQMB+AEHAfgBAwH4AQMC/wH8AQMB/AED
+        AfwBAwL/AfwBA0D/Ac8B/wHPAf8B6wFnAesBZwHPAf8BzwH/AekBZwHpAWcBzwHzAc8B8wH7AXcB+wF3
+        Af8B8wH/AfMB+wF3AfsBdwT/AesBZwHrAWcB/AH/AfwB/wHrAWcB6wFnAfwB/wH8Bf8B/AH/Afwh/ws=
+</value>
+  </data>
+  <data name="TreeView2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="TreeView2.SelectedImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="TreeView2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 403</value>
+  </data>
+  <data name="TreeView2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TreeView2.Name" xml:space="preserve">
+    <value>TreeView2</value>
+  </data>
+  <data name="&gt;&gt;TreeView2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TreeView2.Parent" xml:space="preserve">
+    <value>TabPage_CAM</value>
+  </data>
+  <data name="&gt;&gt;TreeView2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TabPage_CAM.ImageKey" xml:space="preserve">
+    <value>move_no_solve.gif</value>
+  </data>
+  <data name="TabPage_CAM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="TabPage_CAM.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="TabPage_CAM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 409</value>
+  </data>
+  <data name="TabPage_CAM.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TabPage_CAM.Name" xml:space="preserve">
+    <value>TabPage_CAM</value>
+  </data>
+  <data name="&gt;&gt;TabPage_CAM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPage_CAM.Parent" xml:space="preserve">
+    <value>FeatureManager</value>
+  </data>
+  <data name="&gt;&gt;TabPage_CAM.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TabPage_Properties.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TabPage_Properties.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="TabPage_Properties.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 409</value>
+  </data>
+  <data name="TabPage_Properties.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="TabPage_Properties.Text" xml:space="preserve">
+    <value>Eigenschaften</value>
+  </data>
+  <data name="&gt;&gt;TabPage_Properties.Name" xml:space="preserve">
+    <value>TabPage_Properties</value>
+  </data>
+  <data name="&gt;&gt;TabPage_Properties.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPage_Properties.Parent" xml:space="preserve">
+    <value>FeatureManager</value>
+  </data>
+  <data name="&gt;&gt;TabPage_Properties.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="FeatureManager.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="FeatureManager.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="FeatureManager.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 439</value>
+  </data>
+  <data name="FeatureManager.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;FeatureManager.Name" xml:space="preserve">
+    <value>FeatureManager</value>
+  </data>
+  <data name="&gt;&gt;FeatureManager.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FeatureManager.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;FeatureManager.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>63</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>642, 439</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Teil</value>
+  </data>
+  <data name="&gt;&gt;SkizzeToolStripMenuItem.Name" xml:space="preserve">
+    <value>SkizzeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;SkizzeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SkizzeBeendenToolStripMenuItem.Name" xml:space="preserve">
+    <value>SkizzeBeendenToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;SkizzeBeendenToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem1.Name" xml:space="preserve">
+    <value>ToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LöschenToolStripMenuItem.Name" xml:space="preserve">
+    <value>LöschenToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;LöschenToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator1.Name" xml:space="preserve">
+    <value>ToolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NCProgrammErstellenToolStripMenuItem.Name" xml:space="preserve">
+    <value>NCProgrammErstellenToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;NCProgrammErstellenToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ZeigeTaschenbahnToolStripMenuItem.Name" xml:space="preserve">
+    <value>ZeigeTaschenbahnToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ZeigeTaschenbahnToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ImageList1.Name" xml:space="preserve">
+    <value>ImageList1</value>
+  </data>
+  <data name="&gt;&gt;ImageList1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ImLi_CamTreVi.Name" xml:space="preserve">
+    <value>ImLi_CamTreVi</value>
+  </data>
+  <data name="&gt;&gt;ImLi_CamTreVi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>PartViewer</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

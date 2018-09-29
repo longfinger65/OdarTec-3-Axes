@@ -1,0 +1,17 @@
+'Values of the X-, Y- and Z-axis in mm
+
+94,998
+91,544
+64,997
+
+'Values of the mm / step ratio of the axes beginning with the x-axis
+
+0,0010
+0,0010
+0,0010
+0,0000
+0,0000
+0,0000
+0,0000
+
+'---------------------------------------------------

@@ -1,0 +1,116 @@
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\NC-Steuerung\bin\Debug\OdarTec 3-Axes.exe.config
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\NC-Steuerung\bin\Debug\OdarTec 3-Axes.exe
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\NC-Steuerung\bin\Debug\OdarTec 3-Axes.pdb
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\NC-Steuerung\bin\Debug\OdarTec 3-Axes.xml
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\NC-Steuerung\obj\Debug\OdarTec3Axes.GraphicPanel.resources
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\NC-Steuerung\obj\Debug\OdarTec3Axes.MachinePanel.resources
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\NC-Steuerung\obj\Debug\OdarTec3Axes.OdarTec3Axes.resources
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\NC-Steuerung\obj\Debug\OdarTec3Axes.Resources.resources
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\NC-Steuerung\obj\Debug\OdarTec3Axes.SplashScreen1.resources
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\NC-Steuerung\obj\Debug\OdarTec 3-Axes.vbproj.GenerateResource.Cache
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\NC-Steuerung\obj\Debug\OdarTec 3-Axes.exe
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\NC-Steuerung\obj\Debug\OdarTec 3-Axes.xml
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\NC-Steuerung\obj\Debug\OdarTec 3-Axes.pdb
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec 3-Axes.vbprojResolveAssemblyReference.cache
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\Ribbon1.baml
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\Ribbon1.g.vb
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec 3-Axes_Content.g.vb
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec 3-Axes_MarkupCompile.cache
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec 3-Axes.g.resources
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.Cam3D.resources
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.CamBore.resources
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.CamScan.resources
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.CamPicture.resources
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.CamPath.resources
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.CamFaceMilling.resources
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.EntityEditor.resources
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.FM_Options.resources
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.PartViewer.resources
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.MachinePanel.resources
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.OdarTec3Axes.resources
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.Resources.resources
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.ObjectFang.resources
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.SplashScreen1.resources
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.CamPocket.resources
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.ToolManagement.resources
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.UC_General.resources
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.UC_TreeViewPageSketch.resources
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec 3-Axes.vbproj.GenerateResource.Cache
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\OdarTec 3-Axes.exe.config
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\OpenTK.GLControl.dll
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\3-AxesHelp.chm
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\OdarTec 3-Axes.exe.manifest
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\OdarTec 3-Axes.application
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\OdarTec 3-Axes.exe
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\OdarTec 3-Axes.pdb
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\OdarTec 3-Axes.xml
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\Microsoft.Windows.Shell.dll
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\MySql.Data.dll
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\OpenTK.dll
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\RibbonControlsLibrary.dll
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\Microsoft.Windows.Shell.pdb
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\Microsoft.Windows.Shell.xml
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\OpenTK.xml
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\RibbonControlsLibrary.pdb
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\RibbonControlsLibrary.xml
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec 3-Axes.exe.manifest
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec 3-Axes.application
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec 3-Axes.exe
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec 3-Axes.xml
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec 3-Axes.pdb
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec 3-Axes.vbproj.ResolveComReference.cache
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\Ribbon1.baml
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\Ribbon1.g.vb
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec 3-Axes_Content.g.vb
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec 3-Axes_MarkupCompile.cache
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec 3-Axes.g.resources
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.Cam3D.resources
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.CamScan2D.resources
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.CamTest.resources
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.CamScan.resources
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.CamPicture.resources
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.CamPath.resources
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.CamFaceMilling.resources
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.EntityEditor.resources
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.FM_Options.resources
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.PartViewer.resources
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.MachinePanel.resources
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.OdarTec3Axes.resources
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.Resources.resources
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.ObjectFang.resources
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.SplashScreen1.resources
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.CamPocket.resources
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.ToolManagement.resources
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.UC_General.resources
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.UC_TreeViewPageSketch.resources
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec 3-Axes.vbproj.GenerateResource.Cache
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec 3-Axes.vbproj.CoreCompileInputs.cache
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec 3-Axes.exe
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec 3-Axes.xml
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec 3-Axes.pdb
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\OdarTec 3-Axes.exe.config
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\OdarTec 3-Axes.exe.manifest
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\OdarTec 3-Axes.application
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\OdarTec 3-Axes.exe
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\OdarTec 3-Axes.pdb
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\OdarTec 3-Axes.xml
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\IronPython.dll
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\IronPython.Modules.dll
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\IronPython.SQLite.dll
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\IronPython.Wpf.dll
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\Microsoft.Dynamic.dll
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\Microsoft.Scripting.AspNet.dll
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\Microsoft.Scripting.dll
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\Microsoft.Scripting.Metadata.dll
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\IronPython.xml
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\IronPython.Modules.xml
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\IronPython.SQLite.xml
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\IronPython.Wpf.xml
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\Microsoft.Dynamic.xml
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\Microsoft.Scripting.xml
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\Microsoft.Scripting.AspNet.xml
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\bin\Debug\Microsoft.Scripting.Metadata.xml
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec 3-Axes.exe.manifest
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec 3-Axes.application
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec 3-Axes.vbprojResolveAssemblyReference.cache
+D:\softwaredevelopement\3-Axis\software\PC programs\OdarTec 3-Axes\obj\Debug\OdarTec3Axes.CamBore.resources

@@ -1,0 +1,28 @@
+D:\Bibliothek-2\Projekte\VB\NC-Steuerung\NC-Steuerung\bin\Debug\NC-Steuerung.exe.config
+D:\Bibliothek-2\Projekte\VB\NC-Steuerung\NC-Steuerung\bin\Debug\NC-Steuerung.exe
+D:\Bibliothek-2\Projekte\VB\NC-Steuerung\NC-Steuerung\bin\Debug\NC-Steuerung.pdb
+D:\Bibliothek-2\Projekte\VB\NC-Steuerung\NC-Steuerung\bin\Debug\NC-Steuerung.xml
+D:\Bibliothek-2\Projekte\VB\NC-Steuerung\NC-Steuerung\obj\Debug\NC_Steuerung.Form1.resources
+D:\Bibliothek-2\Projekte\VB\NC-Steuerung\NC-Steuerung\obj\Debug\NC_Steuerung.Resources.resources
+D:\Bibliothek-2\Projekte\VB\NC-Steuerung\NC-Steuerung\obj\Debug\NC-Steuerung.vbproj.GenerateResource.Cache
+D:\Bibliothek-2\Projekte\VB\NC-Steuerung\NC-Steuerung\obj\Debug\NC-Steuerung.exe
+D:\Bibliothek-2\Projekte\VB\NC-Steuerung\NC-Steuerung\obj\Debug\NC-Steuerung.xml
+D:\Bibliothek-2\Projekte\VB\NC-Steuerung\NC-Steuerung\obj\Debug\NC-Steuerung.pdb
+D:\Bibliothek-2\Projekte\VB\NC-Steuerung\NC-Steuerung\obj\Debug\NC-Steuerung.vbprojResolveAssemblyReference.cache
+D:\Bibliothek-2\Projekte\VB\NC-Steuerung\NC-Steuerung\obj\Debug\NC_Steuerung.fControlPanel.resources
+D:\Bibliothek-2\Projekte\VB\NC-Steuerung\NC-Steuerung\obj\Debug\NC_Steuerung.Terminal.resources
+D:\Bibliothek-2\Projekte\VB\NC-Steuerung\NC-Steuerung\obj\Debug\NC_Steuerung.fCAM.resources
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\NC-Steuerung\obj\Debug\NC-Steuerung.vbprojResolveAssemblyReference.cache
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\NC-Steuerung\obj\Debug\NC-Steuerung.vbproj.GenerateResource.Cache
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\NC-Steuerung\bin\Debug\OdarTec 3-Axes.exe.config
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\NC-Steuerung\bin\Debug\OdarTec 3-Axes.exe
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\NC-Steuerung\bin\Debug\OdarTec 3-Axes.pdb
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\NC-Steuerung\bin\Debug\OdarTec 3-Axes.xml
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\NC-Steuerung\obj\Debug\OdarTec3Axes.GraphicPanel.resources
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\NC-Steuerung\obj\Debug\OdarTec3Axes.MachinePanel.resources
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\NC-Steuerung\obj\Debug\OdarTec3Axes.MDIParent1.resources
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\NC-Steuerung\obj\Debug\OdarTec3Axes.Resources.resources
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\NC-Steuerung\obj\Debug\OdarTec3Axes.SplashScreen1.resources
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\NC-Steuerung\obj\Debug\OdarTec 3-Axes.exe
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\NC-Steuerung\obj\Debug\OdarTec 3-Axes.xml
+D:\Bibliothek-2\Projekte\WorkingDirectory\3-Axis\software\PC programs\NC-Steuerung\obj\Debug\OdarTec 3-Axes.pdb

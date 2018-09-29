@@ -1,0 +1,425 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+OdarTec 3-Axes
+</name>
+</assembly>
+<members>
+<member name="T:OdarTec3Axes.My.Resources.Resources">
+<summary>
+  Eine stark typisierte Ressourcenklasse zum Suchen von lokalisierten Zeichenfolgen usw.
+</summary>
+</member>
+<member name="P:OdarTec3Axes.My.Resources.Resources.ResourceManager">
+<summary>
+  Gibt die zwischengespeicherte ResourceManager-Instanz zurück, die von dieser Klasse verwendet wird.
+</summary>
+</member>
+<member name="P:OdarTec3Axes.My.Resources.Resources.Culture">
+<summary>
+  Überschreibt die CurrentUICulture-Eigenschaft des aktuellen Threads für alle
+  Ressourcenzuordnungen, die diese stark typisierte Ressourcenklasse verwenden.
+</summary>
+</member>
+<member name="P:OdarTec3Axes.My.Resources.Resources.SWXUiTreeView">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:OdarTec3Axes.CamScan2D.Bu_Scan_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the Bu_Scan control.
+ Starts the scanning process.
+ Steps:
+  - taking the "PurePicture",
+  - switching on the laser,
+  - taking the "LaserPicture",
+  - switching off the laser,
+  - making the next step in the y direction, 
+  - calculating the z values and putting these values into a field,
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+ 
+</member>
+<member name="M:OdarTec3Axes.CamScan2D.Bu_Calibration_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the Bu_Calibration control.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:OdarTec3Axes.CamScan.Bu_Scan_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the Bu_Scan control.
+ Starts the scanning process.
+ Steps:
+  - taking the "PurePicture",
+  - switching on the laser,
+  - taking the "LaserPicture",
+  - switching off the laser,
+  - making the next step in the y direction, 
+  - calculating the z values and putting these values into a field,
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+ 
+</member>
+<member name="M:OdarTec3Axes.CamScan.Bu_Calibration_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the Bu_Calibration control.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:OdarTec3Axes.cStlInterface.importSTL(OdarTec3Axes.cImported@,System.IO.StreamReader@,System.String)">
+ <summary>
+ Imports the STL.
+ </summary>
+ <param name="colGeoBase">The col geo base.</param>
+ <param name="Reader">The reader.</param>
+ <param name="Number">The number.</param>
+ <returns></returns>
+</member>
+<member name="M:OdarTec3Axes.cObjectRepresentation.deleteActiveElement">
+ <summary>
+ Deletes the active element from the "Objects"-collection.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:OdarTec3Axes.PartViewer.actualizeElementSize">
+ <summary>
+ Actualizes the size of the element.
+ 
+ Manages the size of the "Panel_GraphicArea"
+ </summary>
+</member>
+<member name="M:OdarTec3Axes.MachinePanel.Button_Auto_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the Button_Auto control.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:OdarTec3Axes.MachinePanel.makeAStepRemoteControlled(System.String,System.Double,System.Double)">
+ <summary>
+ Makes a step remote controlled.
+ </summary>
+ <param name="Direction">The direction.</param>
+ <param name="Stepsize">The stepsize.</param>
+ <param name="FeedRate">The feed rate.</param>
+</member>
+<member name="M:OdarTec3Axes.MachinePanel.Bu_LoadValuesFromMachine_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the Bu_LoadValuesFromMachine control.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:OdarTec3Axes.OdarTec3Axes.importSTL">
+ <summary>
+ Imports the STL.
+ </summary>
+</member>
+<member name="M:OdarTec3Axes.OdarTec3Axes.createNewCamScan">
+ <summary>
+ Creates the new cam scan.
+ </summary>
+</member>
+<member name="T:OdarTec3Axes.SerialDevice">
+ <summary>
+ Provides a wrapper for a SerialPort which automatically reads data from the port and processes it via assigned Func(Of Byte(), Integer, Integer) delegates.
+ Also provides "Send" methods for writing character, byte, hex, and string data to the port.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:OdarTec3Axes.SerialDevice.Connected">
+ <summary>
+ Gets a value determining if the serial port is open.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:OdarTec3Axes.SerialDevice.ComPort">
+ <summary>
+ Gets or sets the COM Port name that the physical device is connected to, or virtual COM Port name created by the physical device.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:OdarTec3Axes.SerialDevice.DtrEnable">
+ <summary>
+ Gets or sets a value determining whether or not the serial port will use data-terminal-ready signals (default is False).
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:OdarTec3Axes.SerialDevice.Encoding">
+ <summary>
+ Gets or sets the text encoding used to convert between character strings and byte data (default is ASCII).
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:OdarTec3Axes.SerialDevice.NewLine">
+ <summary>
+ Gets or sets the string used to represent a line terminator (default CrLf).
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:OdarTec3Axes.SerialDevice.Baud">
+ <summary>
+ Gets or sets a value specifying the baud rate to use.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:OdarTec3Axes.SerialDevice.DataBits">
+ <summary>
+ Gets or sets a value specifying the data bits to use.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:OdarTec3Axes.SerialDevice.StopBits">
+ <summary>
+ Gets or sets a value specifying the stop bits to use.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:OdarTec3Axes.SerialDevice.Parity">
+ <summary>
+ Gets or sets a value specifying the parity to use.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:OdarTec3Axes.SerialDevice.FlowControl">
+ <summary>
+ Gets or sets a value specifying the hardware handshaking to use.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:OdarTec3Axes.SerialDevice.RtsEnable">
+ <summary>
+ Gets or sets a value determining whether or not the serial port uses ready-to-send signals (default False).
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:OdarTec3Axes.SerialDevice.MessageMode">
+ <summary>
+ Gets or sets the processing mode. In ByteMode, the CheckMessageComplete delegate will be invoked for every byte received.
+ In BlockMode, available data will be read at once and sent to CheckMessageComplete in chunks, as available.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:OdarTec3Axes.SerialDevice.CheckMessageComplete">
+ <summary>
+ Gets or sets a delegate function which will be called to determine if a complete message has been queued.
+ This function must return zero if the bytes received so far do not constitute a complete message, or a positive
+ integer value representing the number of bytes which make up the complete message.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks>
+ </remarks>
+ <example>
+ The following example defines a simple check message delegate function and sets it
+ to the CheckMessageComplete property.
+ <code>
+ mySerialDevice.CheckMessageComplete = AddressOf(DoCheckMessage)
+
+ Function DoCheckMessage(data As Byte(), count As Integer) As Integer
+    '1) Determine if data contains complete message
+    '2) Return number of bytes in message if complete, or return 0 if not complete
+ End Function
+ </code>
+ </example>
+</member>
+<member name="P:OdarTec3Axes.SerialDevice.ProcessError">
+ <summary>
+ An optional Action(Of PortState, SerialError) delegate to be invoked when a serial port error occurs.
+ Only as reliable as the SerialPort.ErrorReceived event. See MSDN documentation for details.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:OdarTec3Axes.SerialDevice.ProcessMessage">
+ <summary>
+ A required Action(Of Byte(), Integer) delegate to be invoked when the CheckMessageComplete delegate call returns a positive value.
+ This delegate method performs the actual work of processing the message data received from the serial device.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:OdarTec3Axes.SerialDevice.ProcessPinChange">
+ <summary>
+ An optional Action(Of PortState, SerialPinChange) delegate to be invokde when a serial pin change event occurs.
+ See the MSDN documentation for SerialPort.PinChanged event for more information.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:OdarTec3Axes.SerialDevice.ConfigurePort">
+ <summary>
+ Configures the serial port with the default baud rate (9800), 8 data bits, no parity, one stop bit, and no flow control.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:OdarTec3Axes.SerialDevice.#ctor(System.IO.Ports.SerialPort)">
+ <summary>
+ Creates a new instance of SerialDevice using the specified existing SerialPort instance.
+ </summary>
+ <param name="serialPort"></param>
+ <remarks></remarks>
+</member>
+<member name="M:OdarTec3Axes.SerialDevice.#ctor">
+ <summary>
+ Creates a new instance of SerialDevice with its own internal SerialPort.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:OdarTec3Axes.SerialDevice.Connect">
+ <summary>
+ Opens the SerialPort and connects to the physical device if the PortName, CheckMessageComplete delegate, and ProcessMessage delegate have all been specified.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:OdarTec3Axes.SerialDevice.Disconnect">
+ <summary>
+ Ends processing of the SerialDevice and closes the underlying serial port.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:OdarTec3Axes.SerialDevice.SendChar(System.Char)">
+ <summary>
+ Sends a single character to the serial port.
+ </summary>
+ <param name="c"></param>
+ <remarks></remarks>
+</member>
+<member name="M:OdarTec3Axes.SerialDevice.SendData(System.Byte[])">
+ <summary>
+ Sends a byte or series of bytes to the serial port.
+ </summary>
+ <param name="bytes"></param>
+ <remarks></remarks>
+</member>
+<member name="M:OdarTec3Axes.SerialDevice.SendHex(System.String)">
+ <summary>
+ Sends a byte or series of bytes in hexadecimal format to the serial port.
+ </summary>
+ <param name="hexString"></param>
+ <remarks></remarks>
+</member>
+<member name="M:OdarTec3Axes.SerialDevice.SendString(System.String)">
+ <summary>
+ Sends a string to the serial port using the current text encoding.
+ </summary>
+ <param name="text"></param>
+ <remarks></remarks>
+</member>
+<member name="T:OdarTec3Axes.PortState">
+ <summary>
+ Provides information about the state of a serial port.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:OdarTec3Axes.CommonBaudRate">
+ <summary>
+ Provides a list of common serial baud rates.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:OdarTec3Axes.MessageProcessingMode">
+ <summary>
+ Specifies the processing mode for messages.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:OdarTec3Axes.MessageProcessingMode.ByteMode">
+ <summary>
+ The CheckMessageComplete delegate will be invoked for every byte received.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:OdarTec3Axes.MessageProcessingMode.BlockMode">
+ <summary>
+ The CheckMessageComplete delegate will be invoked after all available data is read on each data received event.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:OdarTec3Axes.cOdarTecUtilities.createMeshFromPointArray(OdarTec3Axes.cPointArray@,System.Collections.Generic.List{OdarTec3Axes.cSimplePoint}[]@,System.Double,System.Double)">
+ <summary>
+ Creates the mesh from point array.
+ </summary>
+ <param name="Mesh">The mesh.</param>
+ <param name="ZValues">The z values.</param>
+ <param name="StepWidthX">The step width x.</param>
+</member>
+<member name="M:OdarTec3Axes.cOdarTecUtilities.filterAMatrix(System.Double[0:,0:]@,System.String)">
+ <summary>
+ Filters a matrix by transforming the matrix with dct than filter these matrix by the given "MatrixFilter" and transforming the
+ matrix back by idct.
+ </summary>
+ <param name="Matrix">The matrix.</param>
+ <param name="MatrixFilter">The matrix filter.</param>
+ <returns></returns>
+</member>
+<member name="M:OdarTec3Axes.cOdarTecUtilities.transformMatrixHough(System.Drawing.Bitmap@,System.Double,System.Int32,Microsoft.VisualBasic.Collection@,System.Drawing.Bitmap@,System.String)">
+ <summary>
+ Transforms the matrix hough.
+ </summary>
+ <param name="PictureToTransform">The picture to transform.</param>
+ <param name="AngleStep">The angle step.</param>
+ <param name="DecimalPlacesOfRho">The decimal places of rho.</param>
+ <param name="Result">The result.</param>
+ <returns></returns>
+</member>
+<member name="M:OdarTec3Axes.cOdarTecUtilities.smoothingPointListArray(System.Collections.Generic.List{OdarTec3Axes.cSimplePoint}[]@)">
+ <summary>
+ Smoothings the point list array.
+ </summary>
+ <param name="PointListArray">The point list array.</param>
+ <returns></returns>
+</member>
+<member name="M:OdarTec3Axes.cOdarTecUtilities.sortDoubleArray(System.Double[]@)">
+ <summary>
+ Sorts the double array.
+ </summary>
+ <param name="DoubleArray">The double array.</param>
+ <returns></returns>
+</member>
+<member name="T:OdarTec3Axes.UserControl1">
+<summary>
+UserControl1
+</summary>
+</member>
+<member name="M:OdarTec3Axes.UserControl1.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+</members>
+</doc>

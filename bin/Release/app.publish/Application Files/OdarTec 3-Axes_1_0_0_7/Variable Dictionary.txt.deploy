@@ -1,0 +1,2 @@
+﻿m_ToolWorkRetractHeight			- Heigh above the milling path where the tool is drawn back to between to seperate path segments during work
+m_ToolStartStopRetractHeight		- Height the tool is drawn to before and after the work process

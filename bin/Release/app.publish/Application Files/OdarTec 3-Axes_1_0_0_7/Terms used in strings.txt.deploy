@@ -1,0 +1,4 @@
+﻿Rapid				- Stands for the feedrate "Rapid"
+InfeedGround	- Stands for the feedrate "InfeedGround", the feedrate that is used to move the tool to the ground of a path
+Work				- Stands for the feedrate "Work", the feedrate normaly used for the main work in a cam process
+InfeedSide		- Stands for the feedrate "InfeedSide", the feedrate that is used to move the tool to the next path segment that lies sideward of the actual one

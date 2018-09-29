@@ -1,0 +1,21 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=3-AxesDocumentation.chm
+Contents file=Table of Contents.hhc
+Default topic=Ueber.htm
+Display compile progress=No
+Index file=3-AxesDocumentation.hhk
+Language=0x407 Deutsch (Deutschland)
+Title=OdarTec 3-Axes Hilfe
+
+
+[FILES]
+3D-Scan.htm
+Import.htm
+Schnellstart.htm
+StartPage.htm
+STL-Import.htm
+Ueber.htm
+
+[INFOTYPES]
+

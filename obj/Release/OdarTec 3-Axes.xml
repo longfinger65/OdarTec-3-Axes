@@ -1,0 +1,284 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+OdarTec 3-Axes
+</name>
+</assembly>
+<members>
+<member name="T:OdarTec3Axes.My.Resources.Resources">
+<summary>
+  Eine stark typisierte Ressourcenklasse zum Suchen von lokalisierten Zeichenfolgen usw.
+</summary>
+</member>
+<member name="P:OdarTec3Axes.My.Resources.Resources.ResourceManager">
+<summary>
+  Gibt die zwischengespeicherte ResourceManager-Instanz zurück, die von dieser Klasse verwendet wird.
+</summary>
+</member>
+<member name="P:OdarTec3Axes.My.Resources.Resources.Culture">
+<summary>
+  Überschreibt die CurrentUICulture-Eigenschaft des aktuellen Threads für alle
+  Ressourcenzuordnungen, die diese stark typisierte Ressourcenklasse verwenden.
+</summary>
+</member>
+<member name="P:OdarTec3Axes.My.Resources.Resources.SWXUiTreeView">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:OdarTec3Axes.SerialDevice">
+ <summary>
+ Provides a wrapper for a SerialPort which automatically reads data from the port and processes it via assigned Func(Of Byte(), Integer, Integer) delegates.
+ Also provides "Send" methods for writing character, byte, hex, and string data to the port.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:OdarTec3Axes.SerialDevice.Connected">
+ <summary>
+ Gets a value determining if the serial port is open.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:OdarTec3Axes.SerialDevice.ComPort">
+ <summary>
+ Gets or sets the COM Port name that the physical device is connected to, or virtual COM Port name created by the physical device.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:OdarTec3Axes.SerialDevice.DtrEnable">
+ <summary>
+ Gets or sets a value determining whether or not the serial port will use data-terminal-ready signals (default is False).
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:OdarTec3Axes.SerialDevice.Encoding">
+ <summary>
+ Gets or sets the text encoding used to convert between character strings and byte data (default is ASCII).
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:OdarTec3Axes.SerialDevice.NewLine">
+ <summary>
+ Gets or sets the string used to represent a line terminator (default CrLf).
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:OdarTec3Axes.SerialDevice.Baud">
+ <summary>
+ Gets or sets a value specifying the baud rate to use.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:OdarTec3Axes.SerialDevice.DataBits">
+ <summary>
+ Gets or sets a value specifying the data bits to use.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:OdarTec3Axes.SerialDevice.StopBits">
+ <summary>
+ Gets or sets a value specifying the stop bits to use.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:OdarTec3Axes.SerialDevice.Parity">
+ <summary>
+ Gets or sets a value specifying the parity to use.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:OdarTec3Axes.SerialDevice.FlowControl">
+ <summary>
+ Gets or sets a value specifying the hardware handshaking to use.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:OdarTec3Axes.SerialDevice.RtsEnable">
+ <summary>
+ Gets or sets a value determining whether or not the serial port uses ready-to-send signals (default False).
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:OdarTec3Axes.SerialDevice.MessageMode">
+ <summary>
+ Gets or sets the processing mode. In ByteMode, the CheckMessageComplete delegate will be invoked for every byte received.
+ In BlockMode, available data will be read at once and sent to CheckMessageComplete in chunks, as available.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:OdarTec3Axes.SerialDevice.CheckMessageComplete">
+ <summary>
+ Gets or sets a delegate function which will be called to determine if a complete message has been queued.
+ This function must return zero if the bytes received so far do not constitute a complete message, or a positive
+ integer value representing the number of bytes which make up the complete message.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks>
+ </remarks>
+ <example>
+ The following example defines a simple check message delegate function and sets it
+ to the CheckMessageComplete property.
+ <code>
+ mySerialDevice.CheckMessageComplete = AddressOf(DoCheckMessage)
+
+ Function DoCheckMessage(data As Byte(), count As Integer) As Integer
+    '1) Determine if data contains complete message
+    '2) Return number of bytes in message if complete, or return 0 if not complete
+ End Function
+ </code>
+ </example>
+</member>
+<member name="P:OdarTec3Axes.SerialDevice.ProcessError">
+ <summary>
+ An optional Action(Of PortState, SerialError) delegate to be invoked when a serial port error occurs.
+ Only as reliable as the SerialPort.ErrorReceived event. See MSDN documentation for details.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:OdarTec3Axes.SerialDevice.ProcessMessage">
+ <summary>
+ A required Action(Of Byte(), Integer) delegate to be invoked when the CheckMessageComplete delegate call returns a positive value.
+ This delegate method performs the actual work of processing the message data received from the serial device.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:OdarTec3Axes.SerialDevice.ProcessPinChange">
+ <summary>
+ An optional Action(Of PortState, SerialPinChange) delegate to be invokde when a serial pin change event occurs.
+ See the MSDN documentation for SerialPort.PinChanged event for more information.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:OdarTec3Axes.SerialDevice.ConfigurePort">
+ <summary>
+ Configures the serial port with the default baud rate (9800), 8 data bits, no parity, one stop bit, and no flow control.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:OdarTec3Axes.SerialDevice.#ctor(System.IO.Ports.SerialPort)">
+ <summary>
+ Creates a new instance of SerialDevice using the specified existing SerialPort instance.
+ </summary>
+ <param name="serialPort"></param>
+ <remarks></remarks>
+</member>
+<member name="M:OdarTec3Axes.SerialDevice.#ctor">
+ <summary>
+ Creates a new instance of SerialDevice with its own internal SerialPort.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:OdarTec3Axes.SerialDevice.Connect">
+ <summary>
+ Opens the SerialPort and connects to the physical device if the PortName, CheckMessageComplete delegate, and ProcessMessage delegate have all been specified.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:OdarTec3Axes.SerialDevice.Disconnect">
+ <summary>
+ Ends processing of the SerialDevice and closes the underlying serial port.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:OdarTec3Axes.SerialDevice.SendChar(System.Char)">
+ <summary>
+ Sends a single character to the serial port.
+ </summary>
+ <param name="c"></param>
+ <remarks></remarks>
+</member>
+<member name="M:OdarTec3Axes.SerialDevice.SendData(System.Byte[])">
+ <summary>
+ Sends a byte or series of bytes to the serial port.
+ </summary>
+ <param name="bytes"></param>
+ <remarks></remarks>
+</member>
+<member name="M:OdarTec3Axes.SerialDevice.SendHex(System.String)">
+ <summary>
+ Sends a byte or series of bytes in hexadecimal format to the serial port.
+ </summary>
+ <param name="hexString"></param>
+ <remarks></remarks>
+</member>
+<member name="M:OdarTec3Axes.SerialDevice.SendString(System.String)">
+ <summary>
+ Sends a string to the serial port using the current text encoding.
+ </summary>
+ <param name="text"></param>
+ <remarks></remarks>
+</member>
+<member name="T:OdarTec3Axes.PortState">
+ <summary>
+ Provides information about the state of a serial port.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:OdarTec3Axes.CommonBaudRate">
+ <summary>
+ Provides a list of common serial baud rates.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:OdarTec3Axes.MessageProcessingMode">
+ <summary>
+ Specifies the processing mode for messages.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:OdarTec3Axes.MessageProcessingMode.ByteMode">
+ <summary>
+ The CheckMessageComplete delegate will be invoked for every byte received.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:OdarTec3Axes.MessageProcessingMode.BlockMode">
+ <summary>
+ The CheckMessageComplete delegate will be invoked after all available data is read on each data received event.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:OdarTec3Axes.UserControl1">
+<summary>
+UserControl1
+</summary>
+</member>
+<member name="M:OdarTec3Axes.UserControl1.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+</members>
+</doc>
